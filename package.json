@@ -1,9 +1,12 @@
 {
+  "homepage": "https://Wyatt-Drew.github.io/aureusStartUp",
   "name": "startup2024",
   "version": "1.0.0",
   "description": "This a web application called startup2024",
   "main": "server.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node server.js",
     "client": "cd frontend && npm run build && cd .. && npm run nodemonStart",
     "build": "cd frontend && npm install --force && npm run build",
@@ -32,6 +35,7 @@
   },
   "devDependencies": {
     "concurrently": "^8.1.0",
+    "gh-pages": "^6.1.1",
     "nodemon": "^2.0.22"
   }
 }
