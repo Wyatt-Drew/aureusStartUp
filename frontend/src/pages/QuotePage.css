@@ -38,17 +38,12 @@
     background-color: white;
 }
 
-/* .quote-form input:focus,
-.quote-form select:focus {
-    border: 1px solid  #4B86B4;
-    background-color: #294D69;
-} */
 
 .button-container {
-    display: flex; /* Make the form a flex container */
-    flex-direction: column; /* Ensure child elements stack vertically */
-    align-items: center; /* Center-align all child elements horizontally */
-    text-align: center; /* Center-align text */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
 }
 
 .quote-form button {
@@ -65,7 +60,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%; /* Set the container height to the viewport height for full vertical centering */
+    height: 100%; 
 }
 .salesPitch p{
     font-size: 18px;

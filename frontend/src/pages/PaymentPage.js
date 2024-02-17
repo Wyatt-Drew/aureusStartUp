@@ -10,7 +10,7 @@ const PaymentPage = () => {
   const totalAmount = searchParams.get('amount');
   const plan = totalAmount === '3000' ? 'Professional Plan' : 'Basic Plan';
 
-  // Sample order details
+  // Order details
   const order = {
     orderId: '12345',
     totalAmount: `$${totalAmount}.00`,

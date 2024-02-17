@@ -1,4 +1,3 @@
-/* Container for pricing tiers */
 .pricing-container {
     display: flex;
     justify-content: center;
@@ -6,22 +5,19 @@
     line-height: 1.5;
   }
   
-  /* Base styling for each tier */
   .pricing-tier {
-    flex: 1; /* Each tier takes up a third of the container width */
+    flex: 1; 
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin: 10px;
     text-align: center;
   }
   
-  /* Highlighting the recommended tier */
   .recommended {
     border: 2px solid blue;
     position: relative;
   }
   
-  /* Label for the recommended tier */
   .recommended::after {
     content: "Most Popular";
     position: absolute;
@@ -35,7 +31,6 @@
     font-size: 0.8em;
   }
   
-  /* Styling adjustments for text and buttons inside tiers */
   .pricing-tier h2, .pricing-tier p {
     margin: 10px 0;
   }
@@ -73,14 +68,14 @@
   }
   .pricing-header h1 {
     text-align: center;
-    font-size: 2em; /* Adjust size as needed */
+    font-size: 2em;
     margin-bottom: 0.5em;
   }
   
   .pricing-header p {
     text-align: center;
-    font-size: 1.2em; /* Adjust size as needed */
-    margin-bottom: 2em; /* Provides spacing between the subheading and the pricing tiers */
+    font-size: 1.2em; 
+    margin-bottom: 2em;
   }
   .sale-price {
     color: red;
